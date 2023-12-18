@@ -27,7 +27,7 @@ const InvoiceControls = (props: Props) => {
         display: "flex",
         justifyContent: "space-between",
         alignItems: "center",
-        width: matches ? "45%" : "100%",
+        width: matches ? "52%" : "100%",
         height: "80px",
         padding: 2,
         backgroundColor: theme.palette.primary.light,
