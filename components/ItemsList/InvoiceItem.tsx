@@ -23,10 +23,10 @@ const InvoiceItem = (props: ItemsType) => {
         {matches ? quantity : `${quantity}x`}
       </TableCell>
       <TableCell sx={cellStyles} align="center">
-        ${price.toFixed(2)}
+        ₦{price.toFixed(2)}
       </TableCell>
       <TableCell sx={cellStyles} align="center">
-        ${total.toFixed(2)}
+        ₦{total.toFixed(2)}
       </TableCell>
     </TableRow>
   );

@@ -72,7 +72,7 @@ const Invoice = ({ id, paymentDue, clientName, status, total }: Props) => {
             Due {paymentDue}
           </Typography>
           <Typography variant="h5" fontWeight={600} sx={totalPriceStyles}>
-            ${total}
+            ₦{total}
           </Typography>
           <InvoiceStatus status={status} />
           {arrowIcon}
